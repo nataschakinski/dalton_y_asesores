@@ -1,6 +1,8 @@
 import React from 'react';
 import './virtualSection.sass';
 import ArticleVirtual from 'components/atoms/articleVirtual';
+import recorridovirtual1 from 'images/recorridovirtual1.jpg'
+import recorridovirtual2 from 'images/recorridovirtual2.jpg'
 
 
 const VirtualSection= () => {
@@ -8,17 +10,13 @@ const VirtualSection= () => {
         <section className="virtualSec">
             <h1 className= "title-recorrido">RECORRIDO VIRTUAL</h1>
             <ArticleVirtual
-                image="https://media.cylex.com.co/companies/1112/6243/news/asesoria-empresarial_103117_large.jpg" 
-                text="Somos una empresa especializada que presta los servicios personalizados de asesoría, 
-                    consultoría y capacitación a pequeñas, medianas y grandes empresas de diferentes
-                    sectores económicos a nivel Nacional"
-                title ="ASESORIA EMPRESARIAL"
+                image={recorridovirtual1}
+                text="Un tour virtual hace interesante un sitio web, y un sitio web interesante atrae a más prospectos."
             />
             <ArticleVirtual
-                image="https://haroconsultores.com.mx/imagenes/contenidos/recorridovirtual/recorridovirtual-cabeza.jpg" 
-                text="¡Nosotros nos encargamos de todo! desde el levantamiento fotográfico 360º de las instalaciones
+                texto="¡Nosotros nos encargamos de todo! desde el levantamiento fotográfico 360º de las instalaciones
                         hasta su publicación en Google Maps."
-                title ="RECORRIDOS VIRTUALES"
+                imagen={recorridovirtual2} 
             />
             
         </section>            
