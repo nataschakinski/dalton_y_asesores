@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import './articleSoftware.sass';
 
 class ArticleSofware extends Component {
@@ -7,8 +7,10 @@ class ArticleSofware extends Component {
         return (
             <article className="articleSoftware">
                 <h2 className="title-articleSoftware">{title}</h2>
-                <div dangerouslySetInnerHTML={{__html: iframe}} className="img-articleSoftware"/>
-                <p className="text-articleSoftware">{text}</p>
+                <div className="img-text-container-articleSoftware">
+                    <div dangerouslySetInnerHTML={{ __html: iframe }} className="iframe-articleSoftware" />
+                    <p className="text-articleSoftware">{text}</p>
+                </div>
             </article>
         )
     }
