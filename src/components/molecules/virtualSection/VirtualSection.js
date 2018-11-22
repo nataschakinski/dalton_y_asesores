@@ -1,9 +1,6 @@
 import React from 'react';
 import './virtualSection.sass';
 import ArticleVirtual from 'components/atoms/articleVirtual';
-import google from 'images/google.png'
-import recorridovirtual2 from 'images/recorridovirtual2.jpg'
-
 
 const VirtualSection= () => {
     return (
