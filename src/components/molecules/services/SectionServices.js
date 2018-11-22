@@ -11,6 +11,7 @@ import Merlin from 'images/Merlin.png'
 const SectionServices= () => {
         return (
             <section className="services">
+                <h1 className="titleServices">NUESTROS SERVICIOS</h1>
                 <ArticleServ
                     image={Dalton} 
                     text="Somos una empresa especializada que presta los servicios personalizados de asesoría, 

@@ -7,8 +7,8 @@ class ArticleSofware extends Component {
         return (
             <article className="articleSoftware">
                 <h2 className="title-articleSoftware">{title}</h2>
-                <p className="text-articleSoftware">{text}</p>
                 <div dangerouslySetInnerHTML={{__html: iframe}} className="img-articleSoftware"/>
+                <p className="text-articleSoftware">{text}</p>
             </article>
         )
     }
