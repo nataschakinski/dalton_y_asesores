@@ -1,4 +1,5 @@
 import React from 'react'
+import DaltonImage from 'images/Dalton.png'
 import './nav.sass'
 
 const Nav = ({title, image, text}) => {

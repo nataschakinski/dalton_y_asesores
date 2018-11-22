@@ -3,26 +3,29 @@ import React from 'react'
 //import Mapa from 'images/map.jpg'
 import './sectionServices.sass';
 import ArticleServ from 'components/atoms/article';
+import Dalton from 'images/Dalton.png'
+import google from 'images/google.png'
+import Merlin from 'images/Merlin.png'
 
 
 const SectionServices= () => {
         return (
             <section className="services">
                 <ArticleServ
-                    image="https://media.cylex.com.co/companies/1112/6243/news/asesoria-empresarial_103117_large.jpg" 
+                    image={Dalton} 
                     text="Somos una empresa especializada que presta los servicios personalizados de asesoría, 
                         consultoría y capacitación a pequeñas, medianas y grandes empresas de diferentes
                         sectores económicos a nivel Nacional"
                     title ="ASESORIA EMPRESARIAL"
                 />
                 <ArticleServ
-                    image="https://haroconsultores.com.mx/imagenes/contenidos/recorridovirtual/recorridovirtual-cabeza.jpg" 
+                    image={google}
                     text="¡Nosotros nos encargamos de todo! desde el levantamiento fotográfico 360º de las instalaciones
                          hasta su publicación en Google Maps."
                     title ="RECORRIDOS VIRTUALES"
                 />
                 <ArticleServ
-                    image="https://mipropiojefe.com/wp-content/uploads/2016/08/movilidad_ADM.jpg" 
+                    image={Merlin} 
                     text="Creación ilimitada de Bases de Datos que le permite administrar de forma independiente
                           la información de cada empresa, tambien le permite la creación ilimitada de empresas
                           y desde la aplicación puede manejar todas las empresas que necesite , 
@@ -37,7 +40,7 @@ const SectionServices= () => {
                 <ArticleServ
                     image="https://www.hestanto.web.id/wp-content/uploads/2018/05/Definisi-Perencanaan-dan-Pengendalian-Produksi.jpg" 
                     text="Te ofrecemos la solución más completa para que compres tus planes de desarrollo para tu empresa."
-                    title ="PLANES DE DESARROLLO"
+                    title ="TARIFAS"
                 />
                 <ArticleServ
                     image="https://storage.googleapis.com/think/images/00LATAM/201509/tutoriales-en-youtube1_hero.jpg" 

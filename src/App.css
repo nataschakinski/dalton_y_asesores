@@ -1,6 +1,9 @@
 * {
   margin: 0;
+  /* outline-style: solid;
+  outline-color: red; */
   font-family: 'Kanit', sans-serif;
+  box-sizing: border-box
 }
 
 .App {

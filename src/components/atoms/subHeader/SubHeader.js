@@ -5,7 +5,7 @@ const subHeaderBackGroundStyle = (image) => {
     const style = {
         background: ` linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63) ), url(${image})`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover"
+        backgroundSize: "100% 100%"
     }
     return style;
 }

@@ -3,12 +3,12 @@ import './articleSoftware.sass';
 
 class ArticleSofware extends Component {
     render() {
-        const { title, text, image } = this.props
+        const { title, text, iframe } = this.props
         return (
             <article className="articleSoftware">
                 <h2 className="title-articleSoftware">{title}</h2>
-                <img src={image} className="img-articleSoftware" alt="" />
                 <p className="text-articleSoftware">{text}</p>
+                <div dangerouslySetInnerHTML={{__html: iframe}} className="img-articleSoftware"/>
             </article>
         )
     }

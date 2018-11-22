@@ -2,7 +2,7 @@ import React from 'react'
 
 import SubHeader from 'components/atoms/subHeader'
 import Nav from 'components/atoms/nav'
-import Mapa from 'images/map.jpg'
+import map from 'images/map.jpg'
 import './header.sass';
 
 
@@ -13,7 +13,7 @@ const Header = () => {
             <SubHeader 
                 text="Creando el software  del presente para cambiar el mañana"
                 title="Dalton y Asesores"
-                image={Mapa}
+                image={map}
             />
         </header>
     )
