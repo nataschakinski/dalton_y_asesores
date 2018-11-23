@@ -29,8 +29,7 @@ const SectionServices= () => {
                     image={Merlin} 
                     text="Creación ilimitada de Bases de Datos que le permite administrar de forma independiente
                           la información de cada empresa, tambien le permite la creación ilimitada de empresas
-                          y desde la aplicación puede manejar todas las empresas que necesite , 
-                          sin ningún costo adicional, ideal para personas que tienen varias empresas."
+                          y desde la aplicación puede manejar todas las empresas que necesite."
                     title ="SOFTWARE ADMINISTRATIVO"
                 />
                 <ArticleServ
