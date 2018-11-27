@@ -11,17 +11,16 @@ import Footer from 'components/molecules/footer'
 import TutorialesSection from 'components/molecules/tutoriales'
 
 
-const clicknav =document.getElementsByClassName("clicknav")
+//const clicknav =document.getElementsByClassName("clicknav")
 const Nav = ({title, image, text}) => {
-    clicknav.addEventListener("click",function(event))
+   // clicknav.addEventListener("click", function(event)){
     return (
-        <nav className="nav">
+        <nav className="nav">..  
             <img src="" />
             <ul className="ulNav">
-                <li className="liNav">Servicios
-                    <a href="SectionServices">
-                    event.target.li.SectionAsesorias=<SectionAsesorias/>
-                </li>
+                <li className="liNav">Servicios</li>
+                
+
                 <li className="liNav">Asesoria Empresarial</li>
                 <li className="liNav">Recorrido virtual</li>
                 <li className="liNav">Software administrativo</li>
@@ -30,9 +29,13 @@ const Nav = ({title, image, text}) => {
                 <li className="liNav">Tutoriales</li>
                 <li className="liNav">Contactenos</li>
             </ul>            
-        </nav>
-     )
+            </nav>
+        )
     }
+
+    
+    
+
 
    
 
