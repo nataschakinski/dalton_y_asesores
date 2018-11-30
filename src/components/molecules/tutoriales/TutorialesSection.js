@@ -5,8 +5,8 @@ import ArticleTutoriales from 'components/atoms/articleTutoriales';
 
 const TutorialesSection = () => {
     return (
-        <section className="Tutoriales">
-            <h1 className= "title-tutoriales">TUTORIALES</h1>
+        <section className="Tutoriales" id="tutoriales">
+            <h1 className="title-tutoriales">TUTORIALES</h1>
             <ArticleTutoriales
                 iframe='<iframe width="560" height="315" src="https://www.youtube.com/embed/dQ0oAPEUPzg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             />
@@ -25,7 +25,7 @@ const TutorialesSection = () => {
             <ArticleTutoriales
                 iframe='<iframe width="560" height="315" src="https://www.youtube.com/embed/-IXYw4CiK0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             />
-        </section>            
+        </section>
 
     )
 }

@@ -4,7 +4,7 @@ import ArticleVirtual from 'components/atoms/articleVirtual';
 
 const VirtualSection= () => {
     return (
-        <section className="virtualSec">
+        <section className="virtualSec" id="recorridos_virtuales">
             <h1 className= "title-recorrido">RECORRIDO VIRTUAL</h1>
             <ArticleVirtual
                 iframe='<iframe src="https://www.google.com/maps/embed?pb=!4v1542899603448!6m8!1m7!1sCAoSLEFGMVFpcE5SR1pVbjVmS1lDaDNxSEpHbkJqdVEybDdUWi0wclpYSmtXczJ1!2m2!1d4.120208596560055!2d-73.61611946498748!3f193.7926176376239!4f-0.8075880309457943!5f0.7820865974627469" width="100%" height="450" frameBorder="0" style={{border:0}} allowFullScreen></iframe>'

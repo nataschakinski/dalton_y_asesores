@@ -13,7 +13,7 @@ const styleBackground = {
 
 const SectionAsesorias = () => {
         return (
-            <section style={styleBackground} className="asesorias">
+            <section style={styleBackground} className="asesorias" id="asesorias">
                 <ArticleAsesorias
                     image={aserorias} 
                     text="Contamos con un grupo de expertos asesores en diferentes temas de la organización,

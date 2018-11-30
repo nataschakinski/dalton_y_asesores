@@ -1,36 +1,48 @@
 import React from 'react'
-import SubFooter from 'components/atoms/subFooter'
 import './footer.sass'
-import logoface from 'images/logoface.png'
-import instagram from 'images/instagram.jpg'
-import logotwitter from 'images/logotwitter.png'
-import pinterestlogo from 'images/pinterestlogo.jpg'
+import facebook from 'images/facebook.png'
+import twitter from 'images/twitter.png'
+import instagram from 'images/instagram.png'
+import pinterest from 'images/pinterest.png'
 
 const Footer = () => {
-    return(
-        <footer className= "footer">
-            <p className= "title_footer" >Dalton y Asesores</p>
-            <p className= "text_footer">Contacto de información: <a href="mailto:someone@example.com">
-            contacto@dalton.com.co <br/>
-            desarrolloweb@dalton.com.co</a>.</p>
-            <ul className="ulNav">
+    return (
+        <footer className="footer">
+            <h2 className="title_footer" >Dalton y Asesores</h2>
+            <p className="text_footer">
+                <span>
+                    Contacto de información: <br />
+                </span>
+                <a href="mailto:contacto@dalton.com.co">
+                    contacto@dalton.com.co <br />
+                </a>
+                <a href="mailto:desarrolloweb@dalton.com.co">
+                    desarrolloweb@dalton.com.co
+                </a>
+            </p>
+            <ul className="ulFooter">
                 <li className="lifooter">
-                    <img className="imgfooter" src={logoface} alt=""/>  
-                    <a href="https://www.facebook.com/"></a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img className="imgfooter" src={facebook} alt="" />
+                    </a>
                 </li>
                 <li className="lifooter">
-                    <a href="https://twitter.com/"></a>
-                    <img className="imgfooter" src={logotwitter} alt=""/>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                        <img className="imgfooter" src={twitter} alt="" />
+                    </a>
                 </li>
                 <li className="lifooter">
-                    <a href="https://www.instagram.com/"></a>
-                    <img className="imgfooter" src={instagram} alt=""/>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <img className="imgfooter" src={instagram} alt="" />
+                    </a>
                 </li>
                 <li className="lifooter">
-                    <a href="https://co.pinterest.com/"></a>
-                    <img className="imgfooter" src={pinterestlogo} alt=""/>
+                    <a href="https://co.pinterest.com/" target="_blank" rel="noopener noreferrer">
+                        <img className="imgfooter" src={pinterest} alt="" />
+                    </a>
                 </li>
-            </ul>            
+            </ul>
+            <p className="made-by-footer"> Made with <span role="img" aria-label="Heart Emoji">❤️</span> by Karol Gutierrez</p>
         </footer>
     )
 }

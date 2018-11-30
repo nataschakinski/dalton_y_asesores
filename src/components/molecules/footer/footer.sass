@@ -1,19 +1,31 @@
 .footer
     width: 100%
-    height: 15vh
+    min-height: 35vh
+    display: flex
     justify-content: center
-    background: black
+    background: linear-gradient(to top, #000000fc 25%, #41b4ed  100%)
+    flex-wrap: wrap
 
 .title_footer
     color: white
     padding-top: 10px
+    width: 100%
+    font-size: 30px
+    margin-bottom: 30px
 
 .text_footer
     color: white
     padding-bottom: 10px
+    width: 100%
+    span
+        text-decoration: underline
+    a
+        text-decoration: none
+        color: white
 
 .imgfooter
-    width: 15%
+    width: 40px
+    height: 40px
     display: flex
     cursor: pointer
     align-items: center
@@ -22,10 +34,24 @@
     list-style-type: none
     color: #ffffff
     padding: 0px
-    height: 30%;
     max-width: 90px
-    //font-size: 16px    
+
+.ulFooter
+    margin: 20px 0
+    width: 30%
+    display: flex
+    justify-content: space-evenly
 
 .lifooter
-    width: 100%
     display: flex
+    list-style-type: none
+    justify-content: center
+    transition: transform 0.5s
+    transform: scale(1)
+    &:hover
+        transform: scale(1.08)
+
+.made-by-footer
+    color: white
+    width: 100%
+    margin: 20px

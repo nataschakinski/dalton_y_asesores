@@ -6,29 +6,29 @@ import google from 'images/google.png'
 import Merlin from 'images/Merlin.png'
 
 
-const TarifasSection= () => {
-        return (
-            <section className="tarifas">
-                <h1 className="titleTarifas">TARIFAS </h1>
-                <TarifasArticle
-                    image={Dalton} 
-                    text="50.000.000"
-                    title ="PLAN BASICO"
-                />
-                <TarifasArticle
-                    image={google}
-                    text="$100.000.000"
-                    title ="PLAN INTERMEDIO"
-                />
-                <TarifasArticle
-                    image={Merlin} 
-                    text="Contactanos"
-                    title ="PLAN PREMIUM"
-                />
-            </section>            
+const TarifasSection = () => {
+    return (
+        <section className="tarifas" id="tarifas">
+            <h1 className="titleTarifas">TARIFAS </h1>
+            <TarifasArticle
+                image={Dalton}
+                text="50.000.000"
+                title="PLAN BASICO"
+            />
+            <TarifasArticle
+                image={google}
+                text="$100.000.000"
+                title="PLAN INTERMEDIO"
+            />
+            <TarifasArticle
+                image={Merlin}
+                text="Contactanos"
+                title="PLAN PREMIUM"
+            />
+        </section>
 
-        )
-    }
+    )
+}
 
 
 export default TarifasSection;
