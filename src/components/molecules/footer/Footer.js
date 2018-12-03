@@ -4,6 +4,7 @@ import facebook from 'images/facebook.png'
 import twitter from 'images/twitter.png'
 import instagram from 'images/instagram.png'
 import pinterest from 'images/pinterest.png'
+import whatsupp from 'images/whatsupp.png'
 
 const Footer = () => {
     return (
@@ -39,6 +40,11 @@ const Footer = () => {
                 <li className="lifooter">
                     <a href="https://co.pinterest.com/" target="_blank" rel="noopener noreferrer">
                         <img className="imgfooter" src={pinterest} alt="" />
+                    </a>
+                </li>
+                <li className="lifooter">
+                    <a href="https://api.whatsapp.com/send?phone=573186195438" target="_blank" rel="noopener noreferrer">
+                        <img className="imgfooter" src={whatsupp} alt="" />
                     </a>
                 </li>
             </ul>

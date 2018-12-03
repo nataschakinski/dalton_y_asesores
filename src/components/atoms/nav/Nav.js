@@ -19,7 +19,7 @@ const Nav = ({ title, image, text }) => {
                 <li className="liNav" onClick={(event) => onHandleClikNav(event, "tarifas")}>Tarifas</li>
                 <li className="liNav" onClick={(event) => onHandleClikNav(event, "tutoriales")}>Tutoriales</li>
                 <li className="liNav">
-                <a href="https://api.whatsapp.com/send?phone=3186195438" target="_blank" >Contactenos</a></li>
+                <a className= "a" href="https://api.whatsapp.com/send?phone=573186195438" target="_blank" >Contactenos</a></li>
             </ul>
         </nav>
     )
