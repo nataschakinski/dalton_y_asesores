@@ -3,11 +3,16 @@ import Typist from 'react-typist';
 import './subHeader.sass'
 
 const subHeaderBackGroundStyle = (image) => {
+    const widthElement = window.innerWidth
+    let bgSize = "100% 100%"
+    if (widthElement < 640) {
+        bgSize = "contain"
+    }
     const style = {
         background: ` linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63) ), url(${image})`,
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
-        backgroundSize: "100% 100%"
+        backgroundSize: bgSize
     }
     return style;
 }
